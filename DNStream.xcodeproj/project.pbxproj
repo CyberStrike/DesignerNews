@@ -36,6 +36,7 @@
 		8327906E1BACB5DA0055DB62 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832790511BACB5DA0055DB62 /* TransitionManager.swift */; settings = {ASSET_TAGS = (); }; };
 		8327906F1BACB5DA0055DB62 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832790521BACB5DA0055DB62 /* TransitionZoom.swift */; settings = {ASSET_TAGS = (); }; };
 		832790701BACB5DA0055DB62 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832790531BACB5DA0055DB62 /* UnwindSegue.swift */; settings = {ASSET_TAGS = (); }; };
+		8360557E1BAF8545009D4F62 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8360557D1BAF8545009D4F62 /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		83F9777A1B9E4E250091FA2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F977791B9E4E250091FA2E /* AppDelegate.swift */; };
 		83F9777D1B9E4E250091FA2E /* DNStream.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83F9777B1B9E4E250091FA2E /* DNStream.xcdatamodeld */; };
 		83F9777F1B9E4E250091FA2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F9777E1B9E4E250091FA2E /* ViewController.swift */; };
@@ -86,6 +87,7 @@
 		832790511BACB5DA0055DB62 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
 		832790521BACB5DA0055DB62 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
 		832790531BACB5DA0055DB62 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
+		8360557D1BAF8545009D4F62 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		83F977741B9E4E250091FA2E /* DNStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F977781B9E4E250091FA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83F977791B9E4E250091FA2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 				83F977851B9E4E250091FA2E /* LaunchScreen.xib */,
 				83F9777B1B9E4E250091FA2E /* DNStream.xcdatamodeld */,
 				83F977771B9E4E250091FA2E /* Supporting Files */,
+				8360557D1BAF8545009D4F62 /* LoginViewController.swift */,
 			);
 			path = DNStream;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				83F9777F1B9E4E250091FA2E /* ViewController.swift in Sources */,
 				832790651BACB5DA0055DB62 /* SoundPlayer.swift in Sources */,
 				8327905E1BACB5DA0055DB62 /* DesignableView.swift in Sources */,
+				8360557E1BAF8545009D4F62 /* LoginViewController.swift in Sources */,
 				8327905B1BACB5DA0055DB62 /* DesignableTabBarController.swift in Sources */,
 				832790581BACB5DA0055DB62 /* DesignableButton.swift in Sources */,
 				83F9777A1B9E4E250091FA2E /* AppDelegate.swift in Sources */,
