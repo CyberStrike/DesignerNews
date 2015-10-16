@@ -420,10 +420,10 @@
             </objects>
             <point key="canvasLocation" x="286" y="1020"/>
         </scene>
-        <!--View Controller-->
+        <!--Learn View Controller-->
         <scene sceneID="PWX-eU-7pc">
             <objects>
-                <viewController id="tYC-eF-raN" sceneMemberID="viewController">
+                <viewController id="tYC-eF-raN" customClass="LearnViewController" customModule="DNStream" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mJW-Fj-84a"/>
                         <viewControllerLayoutGuide type="bottom" id="gxh-R3-Pd0"/>

@@ -2,7 +2,7 @@
 //  LearnViewController.swift
 //  DNStream
 //
-//  Created by Chris Scott on 10/14/15.
+//  Created by Chris Scott on 10/16/15.
 //  Copyright © 2015 Chris Scott. All rights reserved.
 //
 
@@ -10,8 +10,6 @@ import UIKit
 
 class LearnViewController: UIViewController {
 
-    @IBOutlet weak var dialogView: DesignableView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
