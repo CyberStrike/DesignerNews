@@ -10,11 +10,30 @@ import UIKit
 
 class LearnViewController: UIViewController {
 
+    @IBOutlet weak var dialogView: DesignableView!
+    @IBOutlet weak var bookImageView: SpringImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    
+
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(true)
+        
+        dialogView.animate()
+        
+    }
+    
+    
+    @IBAction func learnButtonDidTouch(sender: AnyObject) {
+        bookImageView.animation = "pop"
+        bookImageView.animate()
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

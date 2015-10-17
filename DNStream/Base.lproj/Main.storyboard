@@ -492,6 +492,9 @@
                                         <state key="normal" title="Learn Sketch + Swift">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="learnButtonDidTouch:" destination="tYC-eF-raN" eventType="touchUpInside" id="fUP-zF-UVe"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEa-uT-rSU">
                                         <rect key="frame" x="0.0" y="210" width="280" height="70"/>
@@ -534,8 +537,9 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="NO"/>
                                     <userDefinedRuntimeAttribute type="string" keyPath="animation" value="zoomIn"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autohide" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -567,6 +571,10 @@
                             <constraint firstItem="83c-Sa-x5T" firstAttribute="centerX" secondItem="Jiz-u5-f5S" secondAttribute="centerX" id="wck-JI-We8"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bookImageView" destination="zEI-ck-154" id="5Ha-Lf-fSu"/>
+                        <outlet property="dialogView" destination="vXS-C2-U5N" id="Pra-AP-RAf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FOz-r4-Mja" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="LpD-Pr-t3E" userLabel="Exit" sceneMemberID="exit"/>
