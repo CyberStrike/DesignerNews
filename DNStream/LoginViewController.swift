@@ -10,23 +10,21 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
-    @IBOutlet weak var dialogView: DesignableView!
-    
-    @IBAction func loginButtonDidTouch(sender: AnyObject) {
-        dialogView.animation = "shake"
-        dialogView.animate()
-        
-    }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    }
+  @IBOutlet weak var dialogView: DesignableView!
+  
+  @IBAction func closeButtonDidTouch(sender: AnyObject) {
+    dismissViewControllerAnimated(true, completion: nil)
+  }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+  @IBAction func loginButtonDidTouch(sender: AnyObject) {
+    dialogView.animation = "shake"
+    dialogView.animate()
+  }
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
     
+    // Do something
+  }
 
 }
